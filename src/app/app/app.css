@@ -1,0 +1,64 @@
+.butonas {
+	background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%);
+	padding: 20px 40px;
+	margin: 12px;
+	display: inline-block;
+	-webkit-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+	overflow: hidden;
+	color: #d4e0f7;
+	font-size: 20px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	-webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.butonas:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #8592ad;
+	opacity: 0;
+	-webkit-transition: 0.2s opacity ease-in-out;
+	transition: 0.2s opacity ease-in-out;
+}
+
+.butonas:hover::before {
+	opacity: 0.2;
+}
+
+.inputas {
+	font-size: 1.5em;
+	background: linear-gradient(21deg, #000f66, #c0e0ff);
+	padding: 3px;
+	display: inline-block;
+	border-radius: 9999em;
+}
+
+.inputas {
+	font-family: inherit;
+	line-height: inherit;
+	color: white;
+	min-width: 12em;
+}
+
+::placeholder {
+	color: #cbd0d5;
+}
+
+#lefttodo {
+	font-size: large;
+	margin-bottom: 1em;
+}
+
+.viskas {
+	margin-left: 4em;
+	text-align: center;
+	align-content: center;
+}
